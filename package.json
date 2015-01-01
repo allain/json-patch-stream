@@ -1,0 +1,38 @@
+{
+  "name": "json-patch-stream",
+  "version": "0.1.0",
+  "description": "JSON-patch utilities for transforming a stream of JSON documents into a stream of JSON patches and vice versa",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/grunt ci"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/allain/json-patch-stream"
+  },
+  "keywords": [
+    "json-patch stream"
+  ],
+  "author": "allain <allain.lalonde@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allain/json-patch-stream/issues"
+  },
+  "dependencies": {
+    "jiff": "^0.7.0",
+    "through2": "^0.6.3"
+  },
+  "devDependencies": {
+    "array-concat-stream": "^1.0.1",
+    "chai": "~1.8.1",
+    "concat-stream": "^1.4.7",
+    "grunt": "~0.4.1",
+    "grunt-cli": "~0.1.9",
+    "grunt-complexity": "~0.1.3",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-mocha-cli": "~1.1.0",
+    "stream-array": "^1.0.1",
+    "stdout": "0.0.3"
+  }
+}
